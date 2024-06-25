@@ -39,12 +39,7 @@
 
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient" id="topNavBar">
-        <div class="container">
-            <a class="navbar-brand" href="https://sourcecodester.com">
-            Sourcecodester
-            </a>
 
-            <div>
                 <b class="text-light">Sample Scheduling</b>
             </div>
         </div>
@@ -61,7 +56,7 @@
                     </div>
                     <div class="card-body">
                         <div class="container-fluid">
-                            <form action="save_schedule.php" method="post" id="schedule-form">
+                            <form action="./save_schedule.php" method="post" id="schedule-form">
                                 <input type="hidden" name="id" value="">
                                 <div class="form-group mb-2">
                                     <label for="title" class="control-label">Title</label>
